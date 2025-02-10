@@ -1,0 +1,17 @@
+# name: Continuous Deployment-hello DevOps
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   PullandDeploy:
+#     runs-on: ["self-hosted", "Linux X64", "hellodevops"]
+
+#     steps:
+#     - name: Checkout repository
+#       uses: actions/checkout@v3
+
+#     - name: deploy the application
+#       uses: docker-compose up -d or docker-compose --detach
